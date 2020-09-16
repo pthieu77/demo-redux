@@ -1,0 +1,21 @@
+state
+=========
+name: A
+age: 12
+
+action
+=======
+addUser (newData)
+updateUser (id, updateData)
+
+reducer
+addUser => add a new user to State
+updateUser => update a user with new data by id
+
+Store 
+    - stateUser: {
+        mang: [],
+        diem: []
+    }
+    - stateStudent
+    - stateTeacher
